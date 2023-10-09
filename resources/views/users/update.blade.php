@@ -1,2 +1,2 @@
-<h1>ini halaman lihat</h1>
+<h1>Ini halaman Update</h1>
 <a href="{{route('user')}}" class="btn btn-primary">kembali</a>

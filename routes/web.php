@@ -26,6 +26,10 @@ Route::get('/user/tambah', [UserController::class, 'tambah'])->middleware('auth'
 
 Route::get('/user/lihat', [UserController::class, 'lihat'])->middleware('auth')->name('user.lihat');
 
+Route::get('/user/update', [UserController::class, 'update'])->middleware('auth')->name('user.update');
+
+Route::get('/user/hapus', [UserController::class, 'hapus'])->middleware('auth')->name('user.hapus');
+
 Route::get('/about', function () {
     return view('about');
 })->name('about');
